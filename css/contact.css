@@ -1,0 +1,55 @@
+
+/* start form */
+
+.contact-form{
+	max-width: 500px;
+	margin: 20px auto;
+}
+.alert{
+	margin-bottom: 10px;
+}
+/* الجزء ده عشان لما اعمل فوكس ع الانبت يخفى البليس هولدر*/
+.contact-form input:focus::placeholder,.contact-form textarea:focus::placeholder{
+	color: transparent;
+}
+.contact-form input, .contact-form textarea{
+	margin-bottom: 10px;
+}
+.contact-form textarea{
+	height: 180px !important; /* بتخليه يستخدم التسيق بتاعى انا مش بتاع الفريم ورك*/
+}
+h1{
+	margin-top: 50px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	font-size: 50px;
+	letter-spacing: -2px;
+	color: #575757;
+}
+.contact-form i{
+	height: 0;
+	float: left;
+	position: relative;
+	top: -35px;
+	left: 10px;
+	color: #999;
+}
+.contact-form input{
+	padding-left: 32px;
+}
+.contact-form .send-icon{
+	color: white;
+	position: relative;
+	left: 180px;
+	top: -38px;	
+}
+.contact-form .form-group{
+	margin-bottom: 0;
+	position: relative;
+}
+.contact-form .form-group span.astrex{
+	float: right;
+	color: rebeccapurple;
+}
+
+
